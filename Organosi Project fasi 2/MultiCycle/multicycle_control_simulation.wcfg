@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/nicag/Desktop/Organosi Project fasi 2/MultiCycle/Control_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="control_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/control_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/uut/op_code_sig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op_code_sig[5:0]</obj_property>
+      <obj_property name="ObjectShortName">op_code_sig[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/uut/func_sig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">func_sig[5:0]</obj_property>
+      <obj_property name="ObjectShortName">func_sig[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/alu_zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_zero</obj_property>
+      <obj_property name="ObjectShortName">alu_zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/pc_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_sel</obj_property>
+      <obj_property name="ObjectShortName">pc_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/memory_operation" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memory_operation</obj_property>
+      <obj_property name="ObjectShortName">memory_operation</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/pc_ld_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_ld_en</obj_property>
+      <obj_property name="ObjectShortName">pc_ld_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/rf_wr_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wr_en</obj_property>
+      <obj_property name="ObjectShortName">rf_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/rf_b_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_b_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_b_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/rf_wrdata_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wrdata_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_wrdata_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/alu_bin_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_bin_sel</obj_property>
+      <obj_property name="ObjectShortName">alu_bin_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/alu_func" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_func[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_func[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/mem_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_wren</obj_property>
+      <obj_property name="ObjectShortName">mem_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/mem_ren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_ren</obj_property>
+      <obj_property name="ObjectShortName">mem_ren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/get_instr_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">get_instr_en</obj_property>
+      <obj_property name="ObjectShortName">get_instr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/uut/current_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_tb/uut/next_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+</wave_config>

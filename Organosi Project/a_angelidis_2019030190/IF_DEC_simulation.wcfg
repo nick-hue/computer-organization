@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/nicag/Desktop/Organosi Project/IF_DEC_testbench_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="if_dec_testbench" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/if_dec_testbench/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/pc_immed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_immed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_immed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/pc_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_sel</obj_property>
+      <obj_property name="ObjectShortName">pc_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/pc_lden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_lden</obj_property>
+      <obj_property name="ObjectShortName">pc_lden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/rf_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wren</obj_property>
+      <obj_property name="ObjectShortName">rf_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/alu_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/mem_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/rf_wrdata_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wrdata_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_wrdata_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/rf_b_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_b_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_b_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/uut/instr_sig" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">instr_sig[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_sig[31:0]</obj_property>
+      <obj_property name="label">Instruction</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/uut/dec_stage/choice_sig" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">choice_sig[1:0]</obj_property>
+      <obj_property name="ObjectShortName">choice_sig[1:0]</obj_property>
+      <obj_property name="label">Edit_choice</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/uut/dec_stage/sig_15_0" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">sig_15_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sig_15_0[15:0]</obj_property>
+      <obj_property name="label">Edit_bits</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/immed" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">immed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immed[31:0]</obj_property>
+      <obj_property name="label">Immed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/rf_a" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rf_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_a[31:0]</obj_property>
+      <obj_property name="label">RF_A</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/rf_b" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rf_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_b[31:0]</obj_property>
+      <obj_property name="label">RF_B</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_testbench/uut/instr_sig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_sig[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_sig[31:0]</obj_property>
+   </wvobject>
+</wave_config>

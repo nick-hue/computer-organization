@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/nicag/Desktop/Organosi Project/IF_DEC_EXEC_testbench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="if_dec_exec_testbench" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/if_dec_exec_testbench/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/pc_immed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_immed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_immed[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/pc_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_sel</obj_property>
+      <obj_property name="ObjectShortName">pc_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/pc_lden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_lden</obj_property>
+      <obj_property name="ObjectShortName">pc_lden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/rf_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wren</obj_property>
+      <obj_property name="ObjectShortName">rf_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/alu_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/mem_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/rf_wrdata_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wrdata_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_wrdata_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/rf_b_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_b_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_b_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/alu_bin_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_bin_sel</obj_property>
+      <obj_property name="ObjectShortName">alu_bin_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/uut/rf_a_sig" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rf_a_sig[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_a_sig[31:0]</obj_property>
+      <obj_property name="label">RF_A</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/uut/rf_b_sig" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rf_b_sig[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_b_sig[31:0]</obj_property>
+      <obj_property name="label">RF_B</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/uut/exec_stage/alu_func" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">alu_func[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_func[3:0]</obj_property>
+      <obj_property name="label">ALU_func</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/uut/immed_sig" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">immed_sig[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immed_sig[31:0]</obj_property>
+      <obj_property name="label">Immed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/uut/exec_stage/alu_out" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+      <obj_property name="label">ALU_out</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/uut/if_stage/pc_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/choice_sig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">choice_sig[1:0]</obj_property>
+      <obj_property name="ObjectShortName">choice_sig[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/uut/alu_out_sig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out_sig[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out_sig[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">register_out_array[0:31]</obj_property>
+      <obj_property name="ObjectShortName">register_out_array[0:31]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[2]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[3]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[4]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[5]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[6]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[7]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[8]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[9]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[10]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[11]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[12]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[13]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[14]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[15]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[16]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[17]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[18]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[19]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[20]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[21]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[22]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[23]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[24]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[25]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[26]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[27]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[28]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[29]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[30]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/if_dec_exec_testbench/uut/dec_stage/register_file/register_out_array[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">register_out_array[31]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/nicag/Desktop/Organosi Project/Datapath_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="datapath_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/datapath_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/pc_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_sel</obj_property>
+      <obj_property name="ObjectShortName">pc_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/pc_lden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_lden</obj_property>
+      <obj_property name="ObjectShortName">pc_lden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/rf_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wren</obj_property>
+      <obj_property name="ObjectShortName">rf_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/rf_b_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_b_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_b_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/rf_wrdata_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wrdata_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_wrdata_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/alu_bin_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_bin_sel</obj_property>
+      <obj_property name="ObjectShortName">alu_bin_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/mem_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_wren</obj_property>
+      <obj_property name="ObjectShortName">mem_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/mem_datain" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">mem_datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_datain[31:0]</obj_property>
+      <obj_property name="label">Mem_DataIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/uut/instr_sig" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">instr_sig[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_sig[31:0]</obj_property>
+      <obj_property name="label">Instruction</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/uut/dec_stage/rf_a" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rf_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_a[31:0]</obj_property>
+      <obj_property name="label">RF_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/uut/dec_stage/rf_b" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rf_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_b[31:0]</obj_property>
+      <obj_property name="label">RF_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/alu_func" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">alu_func[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_func[3:0]</obj_property>
+      <obj_property name="label">ALU_func</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/uut/dec_stage/alu_out" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+      <obj_property name="label">ALU_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/uut/mem_out_sig" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">mem_out_sig[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_out_sig[31:0]</obj_property>
+      <obj_property name="label">MEM_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/uut/if_stage/pc_out" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+      <obj_property name="label">PC_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/uut/if_stage/rom/a" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">a[9:0]</obj_property>
+      <obj_property name="ObjectShortName">a[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Rom Address Index</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/uut/if_stage/pc_out" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">pc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/uut/dec_stage/register_file/register_out_array" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">register_out_array[0:31]</obj_property>
+      <obj_property name="ObjectShortName">register_out_array[0:31]</obj_property>
+      <obj_property name="label">Register File</obj_property>
+   </wvobject>
+</wave_config>
